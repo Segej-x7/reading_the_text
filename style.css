@@ -1,1 +1,68 @@
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.controls {
+    background: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.settings {
+    margin-bottom: 10px;
+}
+
+.text-block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.english {
+    color: #0066cc;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.russian {
+    color: #cc3300;
+}
+
+.timestamp {
+    font-weight: bold;
+    color: #666;
+    margin: 15px 0 5px;
+}
+
+button {
+    padding: 8px 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.play-btn {
+    background: #2196F3;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: #fffde7;
+}
