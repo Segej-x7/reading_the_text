@@ -74,24 +74,57 @@ button:hover {
         border-radius: 8px;
     }
 
+    h1 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9; /* Сохраняет пропорции видео */
+        max-height: 50vh; /* Ограничивает высоту на маленьких экранах */
+    }
+
     .controls {
         padding: 10px;
         margin: 15px 0;
     }
 
+    .speed-control {
+        margin: 12px 0;
+    }
+
+    .speed-control label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .speed-control input[type="range"] {
+        width: 100%;
+    }
+
+    .speed-control span {
+        display: inline-block;
+        margin-top: 5px;
+        font-size: 0.9em;
+    }
+
     button {
-        padding: 8px 12px;
-        margin-bottom: 8px;
+        padding: 10px 12px;
+        margin: 5px 0;
         width: 100%;
         display: block;
+        font-size: 1em;
     }
 
     button + button {
         margin-right: 0;
     }
 
-    .speed-control {
-        margin: 8px 0;
+    #content-display {
+        font-size: 0.95em;
     }
 
     .english, .russian {
