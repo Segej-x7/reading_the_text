@@ -61,3 +61,44 @@ button:hover {
     border-top: 1px dashed #ccc;
     margin: 15px 0;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .container {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .controls {
+        padding: 10px;
+        margin: 15px 0;
+    }
+
+    button {
+        padding: 8px 12px;
+        margin-bottom: 8px;
+        width: 100%;
+        display: block;
+    }
+
+    button + button {
+        margin-right: 0;
+    }
+
+    .speed-control {
+        margin: 8px 0;
+    }
+
+    .english, .russian {
+        margin: 8px 0;
+    }
+
+    .divider {
+        margin: 10px 0;
+    }
+}
